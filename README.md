@@ -13,13 +13,13 @@ Currently, the module is only tested on Python 3.5.
 
 # Usage
 Import the module with:
-<pre><code>import cgss-rijndael</code></pre>
+<pre><code>import cgss_rijndael</code></pre>
 
 Encrypt plaintext with:
-<pre><code>cgss-rijndael.encrypt(Key, IV, plaintext)</code></pre>
+<pre><code>cgss_rijndael.encrypt(Key, IV, plaintext)</code></pre>
 
 Decrypt ciphertext with:
-<pre><code>cgss-rijndael.decrypt(Key, IV, ciphertext)</code></pre>
+<pre><code>cgss_rijndael.decrypt(Key, IV, ciphertext)</code></pre>
 
 Every key and IV must be 32 bytes long.
 
