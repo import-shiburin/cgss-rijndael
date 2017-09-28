@@ -21,6 +21,9 @@ Encrypt plaintext with:
 Decrypt ciphertext with:
 <pre><code>cgss_rijndael.decrypt(Key, IV, ciphertext)</code></pre>
 
+Encrypt and Decrypt functions will return:
+<pre><code>bytearray object for successful quit,
+None for unsuccessful quit</code></pre>
 Every key and IV must be 32 bytes long.
 
 # License
