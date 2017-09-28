@@ -9,8 +9,6 @@ extern void bytes_free(bytes * addr);
 extern bytes * rijndael256_cbc_encrypt(char * key, char * initVector, char * plaintext, int textlength);
 extern bytes * rijndael256_cbc_decrypt(char * key, char * initVector, char * ciphertext, int textlength);
 
-static PyObject * ErrorObject;
-
 static PyObject * pyFunc_EncryptRJ256(PyObject * self, PyObject * args)
 {
     char * data_to_encrypt;
