@@ -3,9 +3,8 @@
 Rijndael 256-CBC Implementation with mcrypt, for developing API client of Idolmaster Cinderella Girls Starlight Stage 
 
 # Requirements
-
-gcc >= 4.7
-libmcrypt-dev
+<pre><code>gcc >= 4.7
+libmcrypt-dev</code></pre>
 
 # Installation
 <pre><code>python3 setup.py install</code></pre>
